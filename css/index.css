@@ -1,0 +1,419 @@
+/* navbar */
+body{
+    overflow-x: hidden;
+}
+
+#zippy{
+    color: #fff;  
+    min-height: 400px;
+    max-height: 511px;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+#abc{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+    padding: 0 0 4.5rem;
+}
+
+.bg-img{
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);    
+    width: 100%;
+    min-height: 400px;
+    max-height: 511px;
+    z-index: -1;
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.nav-item{    
+    padding: 0 18px;
+}
+.nav-link{
+    color: white !important;
+    font-size: 1rem;
+    font-family: 'Montserrat-bold';
+}
+.nav-link:hover{
+    color: black !important;    
+}
+.title{    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.title-h1{
+    font-size: 2.7rem;
+    display: flex;
+    justify-content:left;
+    font-family: 'Montserrat-bold';
+    font-weight: bold;
+  
+}
+.title-h3{
+    display: flex;
+    justify-content:left;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.LN{
+   padding-bottom: 3%;
+}
+.section{
+    padding: 2% 18%;
+    padding-bottom: 5%;
+    margin: 1%;
+
+}
+#zippy{
+    padding-bottom: 10%;
+}
+#home:hover{
+    color: burlywood;
+}
+
+/* <!-- welcome to zippy --> */
+
+.welcome-h1{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 2%;
+}
+.wel{
+    font-size: 1.7rem;
+    padding-top: 10%;
+    font-weight: lighter;
+}
+
+.um{
+    padding-top: 4.5%;
+}
+.uit{
+    text-align: center;
+    size: 50%;
+}
+.row_col{
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+.hr{
+    margin-top: 6%;
+}
+.icons{
+    width:50px;
+    height:50px;
+}
+
+/* projects */
+
+.img1{
+  width: 110%;
+}
+.img2{
+    width: 110%;
+}
+.project-h3{
+    font-size: .7rem;
+  
+}
+.project-container{
+    
+    padding: 5% 8%;
+    background-color: rgb(246, 250, 251);
+}
+#project2-id{
+   
+    background-color: #ffe007;
+}
+
+/* pricing table */
+.table{
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
+#ptable{
+    text-align: center;
+}
+.table-h2{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;  
+  font-size: 1.2rem;
+}
+.table-h31{
+    line-height: 1.5em;
+    display: flex;
+    justify-content: center;
+    font-size: .8rem;
+    font-weight:lighter;
+}
+.table-h32{ 
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    max-width: 100px;
+    font-size: .8rem;
+}
+.table-h321{ 
+    line-height: 1.5em;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;    
+    font-size: .8rem;
+}
+
+#btn1{
+    size: 10%;
+}
+.download-button{
+    margin-top: 10px;
+}
+/* team member */
+
+.team-img{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+ 
+}
+
+.team-pic-h2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    
+}
+
+.team-pic-h3{
+    display: flex;
+    justify-content: center;
+    font-size: .8rem;
+    font-weight: lighter;
+}
+#zteam1{
+    padding-bottom: 3%;
+    padding-top: 2%;
+  
+}
+#zteam{
+    background-color: rgb(243, 237, 229);
+
+}
+
+/* signup */
+#signup{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+    
+    overflow: hidden;
+    background-image: url(https://th.bing.com/th/id/R.bdf80994ea282407761f78cb84640da3?rik=H0fZZROeE7LCAg&riu=http%3a%2f%2fwww.zastavki.com%2fpictures%2foriginals%2f2013%2fNature___Sundown___Sunset_over_the_field_and_the_river_042866_.jpg&ehk=NolSDwDgMsKMw0DmuDlTmf2LEN6Yq84oszfGPzLVOyU%3d&risl=&pid=ImgRaw);
+    
+}
+.trainimg{
+    text-align: center;
+}
+#serabbar{
+    margin-top: 1%;
+    margin-left: 30%;
+    width: 50%;
+    height: 7vh;
+}
+#btnup{
+    width: 20%;
+}
+.signup-h1{
+    color:white;
+    font-size:45px;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 2%;
+    margin-top: 7%;
+}
+#btnup1{
+    margin-top: 2%;
+    margin-left: 71.6%;
+    width: 9%;
+    height: 7vh;
+}
+
+/* blog */
+.blogimg{
+    width: 100%;
+    height: 20vh;
+}
+#blogid{
+    text-align: center;
+}
+
+
+/* Life in zippy*/
+
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .img-container {
+    max-height: 700px;
+    position: relative;
+   
+    padding: 2% 20%;
+  }
+  .life1{
+    background-color: cadetblue;
+
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    justify-content:center;
+  }
+  .mySlides img{
+      width: 560px;
+  }
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column1 {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */  
+  .demo {
+    width:80px;    
+    height:100px;
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+
+
+
+/* footer */
+.img-footer{
+    width: 50px;
+    height: 50px;
+   padding: 8px;
+}
+
+
+/* project videos */
+#vprojects{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: rgb(218, 164, 218);
+}
+
+/* map */
+.form{
+    background-color: yellow;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+.video{
+    width: 370px;
+    height:200px;
+}
+@media (min-width: 992px){
+    .price-line{
+        border-right: 1px solid rgba(0,0,0,0.3);
+    }
+    .video{
+        width:570px;
+        height:400px;
+    }    
+}
+@media screen and (max-width:676px) {
+    .title-h1{
+        font-size:2rem;
+    }
+}
