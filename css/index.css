@@ -19,8 +19,9 @@ font-family: 'Ubuntu', sans-serif;
 
 .bg-img{
     position: absolute;
-    background-color: rgba(0,0,0,0.3);    
-    width: 100%;
+    background-color: rgba(0,0,0,0.3); 
+    width: 100%;   
+    min-width:1000px;
     min-height: 400px;
     max-height: 511px;
     z-index: -1;
